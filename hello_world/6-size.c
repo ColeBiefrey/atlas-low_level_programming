@@ -4,13 +4,17 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-	printf("The size of a char: %d byte(s)\n", sizeof(char));
-	printf("The size of an int: %d byte(s)\n", sizeof(int));
-	printf("The size of a long int: %d byte(s)\n", sizeof(long int));
-	printf("The size of a long long int: %d byte(s)\n", sizeof(long long int));
-	printf("The size of a float: %d byte(s)\n", sizeof(float));
+int main() {
+    char charType;
+    int intType;
+    long int longIntType;
+    long long int longLongIntType;
+    float floatType;
 
-	return (0);
-}
+    printf("Size of char: %zu bytes\n", sizeof(charType));
+    printf("Size of int: %zu bytes\n", sizeof(intType));
+    printf("Size of long int: %zu bytes\n", sizeof(longIntType));
+    printf("Size of long long int: %zu bytes\n", sizeof(longLongIntType));
+    printf("Size of float: %zu bytes\n", sizeof(floatType));
+
+    re

@@ -1,5 +1,5 @@
 #include<stdio.h>
-/* This C program is intended to print an exact text string using specific functions */
+/* This C program is intended to print an exact text string using specifics */
 
 int main(void)
 {

@@ -1,12 +1,17 @@
 #include "main.h"
 
 /**
- * main - check the code
- * Return: Always 0.
+ * _strlen - returns the length of a string
+ * @s: input string
+ * Return: length of string
  */
 
-int main(void)
+int _strlen(char *s)
+
 {
-    int _strlen(char *s);
-    return (0);
+	int count = 0;
+
+	while (*(s + count) != '\0')
+		count++;
+	return (count);
 }

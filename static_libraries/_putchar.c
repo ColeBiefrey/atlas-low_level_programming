@@ -1,12 +1,11 @@
+#include <unistd.h>
 #include "main.h"
 
 /**
- * main - check the code
- * Return: Always 0.
+ * _putchar - writes
+ * Return: 1
+ * On error, -1, errno set
  */
 
-int main(void)
-{
-    int _putchar(char c);
-    return (0);
-}
+int _putchar(char c)
+

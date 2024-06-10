@@ -1,12 +1,22 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - check the code
- * Return: Always 0.
+ * _strcpy - copies the pointed string via src, ignore null, send to buffer
+ * @dest: destination
+ * @src: source
+ * Return: the pointer to dest
  */
 
-int main(void)
+char *_strcpy(char *dest, char *src)
+
 {
-    char *_strcpy(char *dest, char *src);
-    return (0);
+	int i;
+
+	for (i = 0; src[i] != '\0'; i++)
+	{
+		dest[i] = src[i];
+	}
+	dest[i++] = '\0';
+	return (dest);
 }

@@ -1,12 +1,20 @@
 #include "main.h"
 
 /**
- * main - check the code
- * Return: Always 0.
+ * _strchr - locates a char in string
+ * @s: string
+ * @c: char
+ * Return: the pointer to the first occurrence of the character c
  */
 
-int main(void)
+char *_strchr(char *s, char c)
 {
-    char *_strchr(char *s, char c);
-    return (0);
+	unsigned int i = 0;
+
+	for (; *(s + i) != '\0'; i++)
+		if (*(s + i) == c)
+			return (s + i);
+	if (*(s + i) == c)
+		return (s + i);
+	return ('\0');
 }

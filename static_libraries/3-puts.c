@@ -1,12 +1,24 @@
 #include "main.h"
 
 /**
- * main - check the code
- * Return: Always 0.
+ * _puts - prints string followed by new line
+ * @str: input string
+ * Return: no return
  */
 
-int main(void)
+void _puts(char *str)
+
 {
-    void _puts(char *s);
-    return (0);
+	int count = 0;
+
+	while (count >= 0)
+	{
+		if (str[count] == '\0')
+		{
+			_putchar('\n');
+			break;
+		}
+		_putchar(str[count]);
+		count++;
+	}
 }

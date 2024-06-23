@@ -1,0 +1,1 @@
+##These programs are to assist me in understanding how to use structs and typedef to streamline my codebase

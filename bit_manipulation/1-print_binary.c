@@ -1,4 +1,4 @@
-#include "mainh"
+#include "main.h"
 
 /**
  * print_binary - prints binary representation
